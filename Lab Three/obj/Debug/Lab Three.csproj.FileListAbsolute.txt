@@ -1,0 +1,7 @@
+C:\Users\lisaa\source\repos\Lab Three\Lab Three\obj\Debug\Lab Three.csprojAssemblyReference.cache
+C:\Users\lisaa\source\repos\Lab Three\Lab Three\obj\Debug\Lab Three.csproj.CoreCompileInputs.cache
+C:\Users\lisaa\source\repos\Lab Three\Lab Three\bin\Debug\Lab Three.exe.config
+C:\Users\lisaa\source\repos\Lab Three\Lab Three\bin\Debug\Lab Three.exe
+C:\Users\lisaa\source\repos\Lab Three\Lab Three\bin\Debug\Lab Three.pdb
+C:\Users\lisaa\source\repos\Lab Three\Lab Three\obj\Debug\Lab Three.exe
+C:\Users\lisaa\source\repos\Lab Three\Lab Three\obj\Debug\Lab Three.pdb
