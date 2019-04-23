@@ -13,7 +13,7 @@ namespace Lab_Three
       Console.WriteLine("Hello. What is your name?");
       string name = Console.ReadLine();
 
-      char doAgain;
+      char doAgain, hitMe; 
       bool repeat1 = true;
       while (repeat1 == true)
       {
@@ -23,7 +23,7 @@ namespace Lab_Three
 
         if (!IsAllDigits(input))
         {
-          Console.WriteLine("Hey! That isn't a number.");
+          Console.WriteLine("Hey! Something is not right.");
           Console.WriteLine("Would you like to try again? Y or N");
           doAgain = Convert.ToChar(Console.ReadLine());
 
@@ -43,27 +43,63 @@ namespace Lab_Three
 
           {
             Console.WriteLine(name + ", your number is even and less than 25.");
-            break;
+            Console.WriteLine("Would you like to try another number? Y or N");
+            hitMe = Convert.ToChar(Console.ReadLine());
+            if (hitMe == 'y' || hitMe == 'Y')
+            {
+              repeat1 = true;
+            }
+            else
+            {
+              break;
+            }
           }
 
           else if (userInput >= 26 || userInput <= 60)
 
           {
             Console.WriteLine(name + ", your number is even.");
-            break;
+            Console.WriteLine("Would you like to try another number? Y or N");
+            hitMe = Convert.ToChar(Console.ReadLine());
+            if (hitMe == 'y' || hitMe == 'Y')
+            {
+              repeat1 = true;
+            }
+            else
+            {
+              break;
+            }
           }
 
           else if (userInput > 60)
 
           {
             Console.WriteLine(name + "," + userInput + " is an even number.");
-            break;
+            Console.WriteLine("Would you like to try another number? Y or N");
+            hitMe = Convert.ToChar(Console.ReadLine());
+            if (hitMe == 'y' || hitMe == 'Y')
+            {
+              repeat1 = true;
+            }
+            else
+            {
+              break;
+            }
           }
         }
         else
         {
           Console.WriteLine(name + "," + userInput + " is an odd number.");
-          break;
+          Console.WriteLine("Would you like to try another number? Y or N");
+          hitMe = Convert.ToChar(Console.ReadLine());
+          if (hitMe == 'y' || hitMe == 'Y')
+          {
+            repeat1 = true;
+          }
+          else
+          {
+            break;
+          }
         }
 
         // IsAllDigits Method
